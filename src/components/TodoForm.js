@@ -27,7 +27,7 @@ export default class TodoForm extends Component {
 		const {todo} = this.state;
 		return (
 			<form onSubmit={e => this.addTodo(e)}>
-				<div className="row">
+				<div className="row mt-4">
 					<div className="col">
 						<label htmlFor="todo" className="sr-only">Todo</label>
 						<input 
